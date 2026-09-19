@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brew Haus</title>
+  <link href="bootstrap.min.css" rel="stylesheet" />
+  <script src="bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ 
+</head>
+<body>
+  <header class="sticky-top">
+        <div class="top-bar py-2 bg-dark text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mb-0">© OPENING HOURS : 08:00AM - 09:00PM</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="social-icons">
+                            <a href="#" class="text-white mx-2"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="text-white mx-2"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="text-white mx-2"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1b1d1f; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-3" href="#"> <i class="fa-solid fa-mug-hot" style="color: #c59d5f"></i> BrewHaus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active fw-bold" href="#">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#">ABOUT</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown">MENU</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Menu-Coffee</a></li>
+                                <li><a class="dropdown-item" href="#">Menu-Restaurant</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown">PAGES</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#">BLOG</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="shopDropdown" role="button" data-bs-toggle="dropdown">SHOP</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Product</a></li>
+                                <li><a class="dropdown-item" href="#">Product single</a></li>
+                                <li><a class="dropdown-item" href="#">Cart</a></li>
+                                <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                <li><a class="dropdown-item" href="#">My Account</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#">CONTACTS</a></li>
+                    </ul>
+                    <i class="fa-solid fa-cart-shopping" style="color: white; margin-left: 10px;"></i>
+                <ul>
+                    <li><button id="button">BOOK A TABLE</button></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+</header>
+<!-- Hero Section -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" >
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active" >
+      <div class="hero-slide" style="background-image: url('images/coffeefirst.jpg');">
+        <div class="container text-start">
+          <p class="text-uppercase" style="font-weight: 700;">- Welcome to the BrewHaus</p>
+          <h1 class="display-4 fw-bold"style="font-size: 100px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">The Paris <br> Coffee House</h1>
+          <div class="mt-3">
+            <a href="#" class="btn btn-coffee me-2">Explore More></a>
+            <a href="#" class="btn btn-light">Get Delivery></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <div class="hero-slide" style="background-image: url('images/coffee2.jpg');">
+        <div class="container text-start">
+          <p class="text-uppercase"style="font-weight: 700;">- Welcome to the BrewHaus</p>
+          <h1 class="display-4 fw-bold"style="font-size: 100px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Great Coffee <br> Good Vibes</h1>
+          <div class="mt-3">
+            <a href="#" class="btn btn-coffee me-2">Explore More></a>
+            <a href="#" class="btn btn-light">Get Delivery></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item active" >
+      <div class="hero-slide" style="background-image: url('images/picman.jpg');">
+        <div class="container text-start">
+          <p class="text-uppercase"style="font-weight: 700;">- Welcome to the BrewHaus</p>
+          <h1 class="display-4 fw-bold"style="font-size: 100px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">The London <br> Coffee House</h1>
+          <div class="mt-3">
+            <a href="#" class="btn btn-coffee me-2">Explore More></a>
+            <a href="#" class="btn btn-light">Get Delivery></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<img src="images/about.png" alt="none" width="100%">
+<div id="bg-dark"></div>
+    <div class="container2">
+        <div class="menu-grid">
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images/restmenu.jpg" alt="Restaurant Menu">
+                </div>
+                <div class="menu-content">
+                    <h3>Restaurant Menu</h3>
+                </div>
+            </div>
+            
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images/coffeemenu.jpg" alt="Coffee Menu">
+                </div>
+                <div class="menu-content">
+                    <h3>Coffee Menu</h3>
+                </div>
+            </div>
+            
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images/foodservice.jpg" alt="Food Services">
+                </div>
+                <div class="menu-content">
+                    <h3>Food Services</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="coffee-menu">
+        <div class="menu-header">
+            <h1>Copilot Best Coffee</h1>
+            <h2>Popular Coffee Menu</h2>
+        </div>
+        
+        <div class="menu-items">
+            <div class="menu-item">
+                <div class="coffee-image">
+                    <img src="images/coldbrew.jpg" alt="Cold Brew Coffee">
+                </div>
+                <div class="item-details">
+                    <h3>Cold Brew Coffee</h3>
+                    <p class="description">2/4 cuprates, 1/3 marinated milk</p>
+                    <p class="price">$7.9</p>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="coffee-image">
+                    <img src="images/americano.jpg" alt="AmericanoCoffee">
+                </div>
+                <div class="item-details">
+                    <h3>Americano Coffee</h3>
+                    <p class="description">2/3 cuprates, 1/3 streamed milk</p>
+                    <p class="price">$2.59</p>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="coffee-image">
+                    <img src="images/expresso.jpg" alt="EspressoCoffee">
+                </div>
+                <div class="item-details">
+                    <h3>Expresso Coffee</h3>
+                    <p class="description">2/3 espresso, 1/3 streamed milk</p>
+                    <p class="price">$4.9</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="coffee-image">
+                    <img src="images/capuccino.jpg" alt="capuccinoCoffee">
+                </div>
+                <div class="item-details">
+                    <h3>Capuccino Coffee</h3>
+                    <p class="description">2/3 espresso, 1/3 streamed milk</p>
+                    <p class="price">$5.9</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="coffee-image">
+                    <img src="images/peachiced.jpg" alt="peachicedCoffee">
+                </div>
+                <div class="item-details">
+                    <h3>Peached Iced drink</h3>
+                    <p class="description">2/3 peach juice, 1/3 water</p>
+                    <p class="price">$4.99</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="coffee-image">
+                    <img src="images/chocomousse.jpg" alt="chocomousse">
+                </div>
+                <div class="item-details">
+                    <h3>Chocolate Mousse</h3>
+                    <p class="description">2/3 chocolate, wipped cream</p>
+                    <p class="price">$6.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="why-choose-us">
+        <div class="container-3">
+            <h2 class="section-title">WHY CHOOSE US</h2>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <h3>New London Coffee Founded</h3>
+                    <h4>For Extraordinary Taste</h4>
+                    <p>Implement a continuous improvement model that accounts for existing issues, encouraging stakeholders to respond with focused strategies that enhance critical verticals</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Natural Coffee Beans</h3>
+                    <p>Experience coffee in its purest form with natural coffee beans—handpicked, sun-dried, and minimally processed to preserve their authentic flavor. Unlike heavily processed alternatives, natural beans retain the rich oils and unique characteristics of their origin, offering a deeper, more complex taste with fruity undertones and a smooth finish.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>100% ISO Certification</h3>
+                    <p>Our commitment to excellence is backed by 100% ISO Certification, ensuring that every process, product, and service meets the highest international standards. This certification reflects our dedication to quality, safety, and continuous improvement</p>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn1">Explore Now ></button>
+    </section>
+    <div class="coffee-selection">
+        <div class="coffee-item">
+            <img src="images/cup1.jpg" alt="Cup">
+            <div class="coffee-overlay">
+                <h3>Hot coffee</h3>
+            </div>
+        </div>
+        
+        <div class="coffee-item">
+            <img src="images/cup2.jpg" alt="Cup">
+            <div class="coffee-overlay">
+                <h3>Latte</h3>
+            </div>
+        </div>
+        
+        <div class="coffee-item">
+            <img src="images/cup3.jpg" alt="Cup">
+            <div class="coffee-overlay">
+                <h3>Americano</h3>
+            </div>
+        </div>
+        <div class="coffee-item">
+            <img src="images/cup4.jpg" alt="Cup">
+            <div class="coffee-overlay">
+                <h3>Iced coffee</h3>
+            </div>
+        </div>
+        <div class="coffee-item">
+            <img src="images/cup5.jpg" alt="Cup">
+            <div class="coffee-overlay">
+                <h3>Frappe</h3>
+            </div>
+        </div>
+    </div>
+    <section class="testimonial-section">
+        <div class="container">
+            <h1>CUSTOMER REVIEWS</h1>
+            <h2>What does our client say?</h2>
+            
+            <div class="owl-carousel owl-theme">
+                <!-- Review 1 -->
+                <div class="testimonial-item">
+                    <p class="review-text">I ordered the vanilla latte, and it was perfectly balanced—not too sweet, not too bitter. The milk was frothed just right. The cozy atmosphere made it even better. Definitely my new weekend go-to.</p>
+                    <div class="client-info">
+                        <h4>Olivia D. New York</h4>
+                        <p>Dentist</p>
+                    </div>
+                </div>
+                
+                <!-- Review 2 -->
+                <div class="testimonial-item">
+                    <p class="review-text">The caramel macchiato was divine—just the right hint of sweetness with a rich espresso base. Plus, the latte art? So Instagram-worthy!</p>
+                    <div class="client-info">
+                        <h4>Frederick S. France</h4>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="testimonial-item">
+                    <p class="review-text">Their chai latte surprised me—in the best way. Spiced perfectly and not too milky. The comfy seating and soft jazz made me want to stay all afternoon.</p>
+                    <div class="client-info">
+                        <h4>James M. London</h4>
+                        <p>Lawyer</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p class="review-text">Tried their single-origin pour-over—bold, rich, and surprisingly smooth. You can tell they care about their beans and brewing method. The barista even explained the origin. Loved the experience.</p>
+                    <div class="client-info">
+                        <h4>Lali London</h4>
+                        <p>Doctor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<img src="images/rate.png" alt="none" width="100%" style="margin-bottom: 50px;">
+<div class="blog-container">
+    <div class="blog-header" style="text-align: center; margin-bottom: 40px;"></div>
+    <div><h4 style="color: #d18650; margin-bottom: 10px;">GET EVERY SINGLE UPDATE</h4>
+        <h2 style="color: white; font-size: 50px; margin-top: 0;">Read some blogs!!</h2></div>
+    <div></div>
+        <div class="blog-card">
+            <div class="card-content">
+                <h2 class="card-title">SWR React Hooks With Next</h2>
+                <p class="card-subtitle">Incremental Static Regeneration</p>
+                <div class="card-meta">
+                    <span>March 26, 2022</span>
+                    <span class="comments">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                        </svg>
+                        Comments (2)
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="blog-card">
+            <div class="card-content">
+                <h2 class="card-title">Decisions For Building Flexible Components</h2>
+                <p class="card-subtitle">DevTools Browser</p>
+                <div class="card-meta">
+                    <span>March 26, 2022</span>
+                    <span class="comments">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                        </svg>
+                        Comments (0)
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="blog-card">
+            <div class="card-content">
+                <h2 class="card-title">SWR React Hooks With Next</h2>
+                <p class="card-subtitle">Incremental Static Regeneration</p>
+                <div class="card-meta">
+                    <span>March 26, 2022</span>
+                    <span class="comments">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                        </svg>
+                        Comments (0)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="view-all-container">
+        <button class="view-all-btn">VIEW ALL</button>
+    </div>
+    <div class="end" > 
+        <ul>
+        <h3>BOOK A TABLE FOR YOUSELF AND YOUR LOVED ONES</h3>
+        <br>
+        <H1>Need a table on the house</H1>
+        </ul>
+        <button id="button" style="margin-left: 1000px;">BOOK A TABLE</button>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2 class="footer-logo"><i class="fa-solid fa-mug-hot" style="color: #c59d5f"></i> BrewHaus</h2>
+                <p class="footer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus, luctus nec.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-heading">Working Hours</h3>
+                <ul class="working-hours">
+                    <li>
+                        <span class="days">Sunday - Thursday</span>
+                        <span class="hours">08:00 am - 09:00pm</span>
+                    </li>
+                    <li>
+                        <span class="days">Only Friday</span>
+                        <span class="hours">03:00 pm - 09:00pm</span>
+                    </li>
+                    <li>
+                        <span class="days">Saturday</span>
+                        <span class="hours closed">Closed</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-heading">Contact Us</h3>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>55 Main Street, New York</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>BrewHausdev@gmail.com</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+012 (345) 678 99</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-heading">Follow Instagram</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2022 BrewHaus. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- jQuery & Owl Carousel JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Initialize Carousel -->
+    <script src="script.js"></script>
+</body>
+</html>
